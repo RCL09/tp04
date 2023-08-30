@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div class="sobretela"></div>
+    <div class="container">
+        <form>
+            <div class="campos">
+                <h2>Cadastro</h2>
+                <div class="campos">
+                <label for="matricula">Matrícula:</label>
+                <input type="number" id="matricula" name="matricula" required>
+            </div>
+                <label for="nome">Nome Completo:</label>
+                <input type="text" id="nomec" name="nomec" required>
+              </div>
+              <div class="campos">
+                <label for="dataNascimento">Data de Nascimento:</label>
+                <input type="date" id="dataNascimento" name="dataNascimento" required>
+              </div>
+              <div class="campos">
+                <label for="genero">Gênero:</label>
+                <select id="genero" name="genero">
+                    <option value="masculino">Masculino</option>
+                    <option value="feminino">Feminino</option>
+                </select>
+              </div>
+              <div class="checkbox">
+                <label for="interesse">Interesses:</label>
+                <input type="checkbox" id="hardware" name="interesse" value="hardware">
+                <label for="option">Hardware</label><br>
+                <input type="checkbox" id="techmob" name="interesse" value="techmob">
+                <label for="option">Tecnologia Mobile</label><br>
+                <input type="checkbox" id="linguagem" name="interesse" value="linguagem">
+                <label for="option">Linguagem de programação</label> <br>     
+              </div>
+              <div class="campos">
+                <input type="submit" value="Enviar">
+              </div>
+        </form>
+    </div>    
+</body>
+</html>
